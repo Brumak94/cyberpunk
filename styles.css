@@ -12,6 +12,7 @@ body {
 
 .layout {
     width: 1920px;
+    margin: 0 auto;
 }
 
 .header {
@@ -70,6 +71,140 @@ body {
     border: none;
     padding: 0;
     cursor: pointer;
+}
+
+@media (max-width:1919px) and (min-width: 1024px){
+
+    .layout {
+        width: 1024px;
+        margin: 0 auto;
+    }
+
+    .header {
+        width: 952px;
+        height: 74px;
+        margin: 0 auto;
+    }
+
+    .nav {
+        display: flex;
+        align-items: center;
+    }
+    
+    .social {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 379px;
+        height: 30px;
+        margin-left: 277px;
+        justify-content: space-between;
+    }
+
+    .hero {
+        padding-top: 20px;
+        background-image: url(images/hero.jpg);
+        height: 1000px;
+        box-sizing: border-box;
+        background-position: center;
+    }
+
+    .hero-action {
+        width: 624px;
+        height: 369px;
+        margin-left: 364px;
+        margin-top: 537px;
+        padding: 70px;
+        box-sizing: border-box;
+        background-image: linear-gradient(135deg, rgba(0, 0, 0, 0) 5%, #F8F200 5%, #F8F200 95%, #00000000 5%);
+    }
+}
+
+@media (max-width:1023px) and (min-width: 320px) {
+    .layout {
+        width: 320px;
+        margin: 0 auto;
+    }
+
+    .hero {
+        padding-top: 20px;
+        background-image: url(images/Cyberpunk_2077_logo_mobile.png);
+        height: 763px;
+        box-sizing: border-box;
+        background-repeat: no-repeat;
+    }
+
+    .header {
+        width: 296px;
+        height: 85px;
+        
+    }
+
+    .nav {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav img {
+        width: 200px;
+        height: 50px;
+    }
+    
+    .social {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: flex;
+        width: 296px;
+        height: 25px;
+        justify-content: space-between;
+        margin-top: 10px;
+    }
+
+    .social svg {
+        width: 25px;
+        height: 25px;
+    }
+
+    .hero-action {
+        width: 320px;
+        height: 207px;
+        margin: 0 auto;
+        margin-top: 451px;
+        padding: 0;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        box-sizing: border-box;
+        background-image: linear-gradient(135deg, rgba(0, 0, 0, 0) 5%, #F8F200 5%, #F8F200 95%, #00000000 5%);
+    }
+
+    .hero-action-text {
+        width: 295px;
+        height: 62px;
+        font-family: Archangelsk;
+        font-size: 30px;
+        display: block;
+        text-align: center;
+        margin-left: 13px;
+        
+    }
+    
+    .hero-action-button {
+        width: 244px;
+        height: 60px;
+        background-color: black;
+        color: #F8F200;
+        margin-top: 25px;
+        font-weight: bold;
+        font-size: 20px;
+        font-family: Roboto;
+        border: none;
+        padding: 0;
+        cursor: pointer;
+        margin-left: 38px;
+    }
 }
 
 .main-1 {
